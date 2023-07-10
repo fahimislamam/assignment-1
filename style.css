@@ -27,6 +27,20 @@ img{
     color: white;
     font-size: 20px;
 }
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 750;
+}
+.section-description{
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    line-height: 30px;
+}
 
 
 
@@ -64,4 +78,43 @@ img{
     width: 625px;
     height: 750px;
     padding-top: 20px;
+}
+
+/* main section */
+main section{
+    margin-top: 90px;
+}
+/* featured flowers section*/
+.flower{
+
+}
+.flower-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.flower-detail-1 img{
+    background: lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    
+}
+.flower-detail-2 img{
+    background: lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower-detail-3 img{
+    background: lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    
+}
+
+.flower-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 15px;
 }
