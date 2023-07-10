@@ -21,7 +21,7 @@ img{
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    background: #e55272;
+    background: #e55273;
     padding: 15px 35px;
     border: 0;
     color: white;
@@ -82,7 +82,7 @@ img{
 
 /* main section */
 main section{
-    margin-top: 90px;
+    margin-top: 70px;
 }
 /* featured flowers section style*/
 .flower-content{
@@ -122,7 +122,7 @@ main section{
     justify-content: space-between;
     align-items: center;
     background-color: #2727270D;
-    padding: 25px;
+    padding:  45px 30px;
 }
 .service-item img{
     width: 88px;
@@ -132,4 +132,45 @@ main section{
 .service-title{
     text-align: center;
     padding: 5px 0 ;
+}
+/* Hot Deal Section Style  */
+.hot-deal{
+    background-color:#e554730d ;
+    padding: 30px 0;
+}
+.hot-deal-content{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: 0 25px;
+}
+.hot-deal-left{
+    width: 50%;
+    margin: 0 25px;
+}
+.hot-deal-left button{
+    margin: 0 120px;
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+}
+.hot-deal-title span{
+    color: #e55273;
+}
+.hot-deal-description{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.hot-deal-right{
+    margin: 10px 25px;
+}
+.hot-deal-right img{
+    width: 65%;
 }
