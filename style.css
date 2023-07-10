@@ -85,6 +85,9 @@ main section{
     margin-top: 70px;
 }
 /* featured flowers section style*/
+.flower .container{
+    background-color: #ffffff;
+}
 .flower-content{
     display: flex;
     justify-content: space-between;
@@ -152,11 +155,14 @@ main section{
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    margin: 0 25px;
+
 }
 .hot-deal-left{
-    width: 50%;
+    width: 55%;
     margin: 0 25px;
+}
+.hot-deal-left p{
+    text-align: center;
 }
 .hot-deal-left button{
     margin: 0 120px;
@@ -196,4 +202,26 @@ main section{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+/* Latest Deals Section Style */
+
+.latest-content{
+    background-image:url(./images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    padding: 100px 125px;
+}
+.form{
+    padding-top: 45px;
+}
+.latest-content input[type="email"]{
+    color: #272727;
+    border: 0;
+    padding: 20px 35px;
+    width: 70%;
+
+}
+.latest-content input[type="button"]{
+   margin: 0 20px;
+   
+ 
 }
