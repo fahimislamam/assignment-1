@@ -84,12 +84,10 @@ img{
 main section{
     margin-top: 90px;
 }
-/* featured flowers section*/
-.flower{
-
-}
+/* featured flowers section style*/
 .flower-content{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
@@ -100,7 +98,7 @@ main section{
     
 }
 .flower-detail-2 img{
-    background: lightgray 50% / cover no-repeat;
+    background: rgba(167, 33, 98, 0.163) 50% / cover no-repeat;
     border-radius: 300px 300px 0px 0px;
 }
 .flower-detail-3 img{
@@ -117,4 +115,21 @@ main section{
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 15px;
+}
+/* Service section style */
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2727270D;
+    padding: 25px;
+}
+.service-item img{
+    width: 88px;
+    height: 88px;
+    margin: 0 55px;
+}
+.service-title{
+    text-align: center;
+    padding: 5px 0 ;
 }
