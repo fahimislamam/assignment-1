@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-/* common shared styles */
+/* Common Styles */
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -44,12 +44,12 @@ img{
 
 
 
-/* header section */
+/* Header Section */
 .header{
     background-color: #e554731a;
 }
 
-/* banner section style */
+/* Banner Section Style */
 .banner-content{
     display: flex;
     justify-content: space-between;
@@ -80,11 +80,11 @@ img{
     padding-top: 20px;
 }
 
-/* main section */
+/* Main Section */
 main section{
     margin-top: 70px;
 }
-/* featured flowers section style*/
+/* Featured Flowers Section Style*/
 .flower .container{
     background-color: #ffffff;
 }
